@@ -1,0 +1,38 @@
+* {
+  text-align: center;
+}
+
+#logoheader{
+  
+}
+
+#delicious {
+  
+}
+
+#headerp {
+  
+}
+
+nav {
+  /* float: right; */
+}
+
+/* body {
+  border-image: url(img/hr-img.png) 30 round;
+} */
+
+#chocopizza {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph {
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  text-indent: 30px;
+  margin: 15px;
+  
+}

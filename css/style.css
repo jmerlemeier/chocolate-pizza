@@ -1,36 +1,68 @@
-* {
-  text-align: center;
-}
 
 #logoheader{
-  
-}
-
-#delicious {
-  
-}
-
-#headerp {
-  
+ float: left;
 }
 
 nav {
-  /* float: right; */
+  float:right;
 }
 
-/* body {
-  border-image: url(img/hr-img.png) 30 round;
-} */
+/* repeating linear gradient found at https://css-tricks.com/snippets/css/css-repeating-gradients/ */
+#border {
+  background-image: 
+  repeating-linear-gradient(
+      45deg,
+      rgb(223, 223, 212),
+      rgb(245, 245, 241) 7px,
+      rgb(65, 61, 61) 7px,
+      rgb(65, 61, 61) 7px /* determines size */
+    );
+  height: 20px;
+
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
+
+#bordertwo {
+  background-image: 
+  repeating-linear-gradient(
+      45deg,
+      rgb(223, 223, 212),
+      rgb(245, 245, 241) 7px,
+      rgb(65, 61, 61) 7px,
+      rgb(65, 61, 61) 7px /* determines size */
+    );
+  height: 20px;
+
+  margin-top: 50px;
+  margin-bottom: 25px;
+
+}
+
+#article-heading {
+  float: left;
+  clear: both;
+}
+
+#printer {
+  float: right;
+  clear: both;
+}
+
+ body {
+  width: 900px;
+  margin: auto;
+} 
 
 #chocopizza {
   width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
 .paragraph {
   display: inline-block;
-  text-align: left;
+  
   width: 800px;
   text-indent: 30px;
   margin: 15px;

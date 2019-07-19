@@ -62,9 +62,29 @@ nav {
 
 .paragraph {
   display: inline-block;
-  
   width: 800px;
   text-indent: 30px;
   margin: 15px;
-  
 }
+
+#list-background {
+  background-image: url("../img/list-bg.png");
+  height: 200px;
+}
+
+#boxone {
+  float: left;
+  line-height: 2.0em;
+  margin-left: 50px;
+}
+
+#boxtwo {
+  float: right;
+  line-height: 2.0em;
+  margin-right: 100px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+

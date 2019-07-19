@@ -68,27 +68,31 @@
       </article>
     </section>
     <section>
-      <img src="img/list-bg.png" alt="list" title="list" />
-      <form>
-        <fieldset>
-          <input type="checkbox" name="username" size="15" maxlength="30">1 1/2 cups milk</input>
-          <input type="checkbox" name="username" size="15" maxlength="30">1/2 mascarpone</input>
-          <input type="checkbox" name="username" size="15" maxlength="30">1/2 tsp pink salt</input>
-          <input type="checkbox" name="username" size="15" maxlength="30">1 lb black mission</input>
-          <input type="checkbox" name="username" size="15" maxlength="30">1/2 cup brown sugar</input>
-          <input type="checkbox" name="username" size="15" maxlength="30">2-4 tbs water</input>
-        </fieldset>
-        <!-- second side of ingredients list -->
-        <fieldset>
-          <input type="checkbox" name="ingredients" size="15" maxlength="30">1 1/2 cups heavy cream</input>
-          <input type="checkbox" name="ingredients" size="15" maxlength="30">1/3 granulated sugar</input>
-          <input type="checkbox" name="ingredients" size="15" maxlength="30">2 egg yolks</input>
-          <input type="checkbox" name="ingredients" size="15" maxlength="30">1 lemon, juiced</input>
-          <input type="checkbox" name="ingredients" size="15" maxlength="30">2 tbs butter</input>
-          <input type="checkbox" name="ingredients" size="15" maxlength="30">1 cup honey roasted peacans, roughly
-          chopped</input>
-        </fieldset>
-      </form>
+      <div id="list-background">
+        <ul id="boxone">
+          <li><input type="checkbox" name="username" size="15" maxlength="30">1 1/2 cups milk</input></li>
+          <li><input type="checkbox" name="username" size="15" maxlength="30">1/2 mascarpone</input></li>
+          <li><input type="checkbox" name="username" size="15" maxlength="30">1/2 tsp pink salt</input></li>
+          <li><input type="checkbox" name="username" size="15" maxlength="30">1 lb black mission</input></li>
+          <li><input type="checkbox" name="username" size="15" maxlength="30">1/2 cup brown sugar</input></li>
+          <li><input type="checkbox" name="username" size="15" maxlength="30">2-4 tbs water</input></fieldset>
+          </li>
+        </ul>
+
+        <!--
+              second side of ingredients list -->
+        <ul id="boxtwo">
+          <li><input type="checkbox" name="ingredients" size="15" maxlength="30">1 1/2 cups heavy cream</input></li>
+          <li class="strikethrough"><input type="checkbox" name="ingredients" size="15" maxlength="30">1/3 granulated
+            sugar</input></li>
+          <li class="strikethrough"><input type="checkbox" name="ingredients" size="15" maxlength="30">2 egg
+            yolks</input></li>
+          <li><input type="checkbox" name="ingredients" size="15" maxlength="30">1 lemon, juiced</input></li>
+          <li><input type="checkbox" name="ingredients" size="15" maxlength="30">2 tbs butter</input></li>
+          <li><input type="checkbox" name="ingredients" size="15" maxlength="30">1 cup honey roasted peacans, roughly
+            chopped</input></li>
+        </ul>
+      </div>
     </section>
     <section>
       <div id="bordertwo"></div>

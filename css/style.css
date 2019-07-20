@@ -1,10 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
 #logoheader{
  float: left;
 }
 
+.allcaps {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+}
+
+ #allcapsprint {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 10px;
+ }
 nav {
   float:right;
+}
+#headerfont {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+}
+
+#delicious {
+  font-family: 'Niconne', cursive;
+  font-size: 50px;
 }
 
 /* repeating linear gradient found at https://css-tricks.com/snippets/css/css-repeating-gradients/ */
@@ -20,7 +42,7 @@ nav {
   height: 20px;
 
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 
 }
 
@@ -53,6 +75,8 @@ nav {
  body {
   width: 900px;
   margin: auto;
+  border: 1px solid black;
+  padding: 50px;
 } 
 
 #chocopizza {
@@ -65,6 +89,8 @@ nav {
   width: 800px;
   text-indent: 30px;
   margin: 15px;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
 }
 
 #list-background {
@@ -88,3 +114,67 @@ nav {
   text-decoration: line-through;
 }
 
+#vanessa {
+  float: left;
+}
+
+button {
+  margin-left: 700px;
+  background-color: rgb(131, 63, 17);
+  width: 200px;
+  height: 50px;
+  color: white;
+  margin-top: -100px;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  
+}
+
+#share-recipe-area {
+  display: inline-block;
+  height: 250px;
+  
+}
+
+#vannessa-info {
+  font-family: 'Abel', sans-serif;
+  font-size:20px;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+}
+
+#footerbox {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+
+ul {
+  font-family: 'Abel', sans-serif;
+}
+
+#small-logo {
+ display: inline-block;
+}
+
+hr {
+  width: 420px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px; 
+}
+
+#hrleft {
+  float: left;
+}
+
+#hrright {
+  float: right;
+}

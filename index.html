@@ -13,14 +13,12 @@
 <body>
   <header>
     <section id="logoheader">
-
       <img src="img/logo.png" alt="logo" />
     </section>
 
-    <h2>Delicious
+    <h2 id="delicious">Delicious
     </h2>
-    <p id="headerp">The best food blog in the world</p>
-    </div>
+    <p class="allcaps">THE BEST FOOD BLOG IN THE WORLD</p>
 
     <nav>
       <img src="img/fb-icon.png" alt="facebook" title="facebook" />
@@ -36,13 +34,13 @@
   <div id="border"></div>
   <main>
     <div id="article-heading">
-      <h2>Chocolate Pizza</h2>
-      <p>Posted on 15 December 2013/Desserts</p>
+      <h2 id="headerfont">Chocolate Pizza</h2>
+      <p class="allcaps">POST OF 15 DECEMBER 2013 / DESSERTS</p>
     </div>
-    <p>
-      <div id="printer"><img src="img/print-icon.png" alt="printer" title="printer" />
-        print
-    </p>
+
+    <div id="printer"><img src="img/print-icon.png" alt="printer" title="printer" />
+      <p id="allcapsprint">PRINT</p>
+
     </div>
 
     <section id="chocopizza">
@@ -94,22 +92,33 @@
         </ul>
       </div>
     </section>
-    <section>
+    <section id="share-recipe-area">
       <div id="bordertwo"></div>
-      <img src="img/van-pic.png" alt="vanessa" title="van face pic" />
-      <h3>Vanessa Stevenson</h3>
-      <p>Food ethusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      <div id="vanessa">
+        <img src="img/van-pic.png" alt="vanessa" title="van face pic" />
+      </div>
+      <div id="vannessa-info">
+        <h3>Vanessa Stevenson</h3>
+        <p>Food ethusiast, photography fan. Add a pinch of raw foodism and that's<br /> pretty much who I am.</p>
+      </div>
 
-      <button>Share Recipe</button>
+      <button>SHARE RECIPE</button>
     </section>
     <section>
-      <img src="img/small-logo.png" alt="small logo" title="smalllogo" />
-      <hr>
+
     </section>
+    <span id="small-logo">
+      <hr id="hrleft">
+      <img src="img/small-logo.png" alt="small logo" title="smalllogo" />
+      <hr id="hrright">
+    </span>
+
   </main>
   <footer>
-    <p>Delicious &#169 2013 &#8226 All Rights Reserved. Proudly published with Ghost.</p>
-
+    <div id="footerbox">
+      <p>Delicious &#169 2013 &#8226 All Rights Reserved.<br />
+        Proudly published with Ghost.</p>
+    </div>
   </footer>
 </body>
 

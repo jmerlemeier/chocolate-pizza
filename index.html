@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,18 @@
   <title>Chocolate Pizza</title>
   <link href="css/reset.css" type="text/css" rel="stylesheet" />
   <link href="css/style.css" type="text/css" rel="stylesheet" />
- </head>
+</head>
 
 <body>
   <header>
     <section id="logoheader">
-    <img src="img/logo.png" alt="logo" />
+      <img src="img/logo.png" alt="logo" />
+    </section>
+
     <h2 id="delicious">Delicious
     </h2>
-   <p id="headerp">The best food blog in the world</p>
-    </section>
+    <p class="allcaps">THE BEST FOOD BLOG IN THE WORLD</p>
+
     <nav>
       <img src="img/fb-icon.png" alt="facebook" title="facebook" />
       <img src="img/twit-icon.png" alt="twitter" title="twitter" />
@@ -28,77 +31,95 @@
       <img src="img/mail-icon.png" alt="email" title="email" />
     </nav>
   </header>
+  <div id="border"></div>
   <main>
-    <h2>Chocolate Pizza</h2>
-    <p>Posted on 15 December 2013/Desserts</p>
-    <p>
-      <img src="img/print-icon.png" alt="printer" title="printer" />
-      print</p>
-      
-      <section id="chocopizza">
-          <img src="img/choco-pizza.png" alt="chocolate pizza" title="chocolate pizza" />
-      </section>
-      <section>
-        <article>
-          
-              <div class="paragraph">For the fig-swirl: Melt the butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add the salt with one or two stirs, set aside and let cool completely.</div>
+    <div id="article-heading">
+      <h2 id="headerfont">Chocolate Pizza</h2>
+      <p class="allcaps">POST OF 15 DECEMBER 2013 / DESSERTS</p>
+    </div>
 
-              <div class="paragraph">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</div>
+    <div id="printer"><img src="img/print-icon.png" alt="printer" title="printer" />
+      <p id="allcapsprint">PRINT</p>
 
-              <div class="paragraph">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</div>
-          
-        </article>
-      </section>
-      <section>
-        <img src="img/list-bg.png" alt="list" title="list" />
-        <form>
-          <fieldset>
-            <input type="checkbox" name="username" size="15"
-            maxlength="30">1 1/2 cups milk</input>
-            <input type="checkbox" name="username" size="15"
-            maxlength="30">1/2 mascarpone</input>
-            <input type="checkbox" name="username" size="15"
-            maxlength="30">1/2 tsp pink salt</input>
-            <input type="checkbox" name="username" size="15"
-            maxlength="30">1 lb black mission</input>
-            <input type="checkbox" name="username" size="15"
-            maxlength="30">1/2 cup brown sugar</input>
-            <input type="checkbox" name="username" size="15"
-            maxlength="30">2-4 tbs water</input>
-          </fieldset>
-          <!-- second side of ingredients list -->
-          <fieldset>
-            <input type="checkbox" name="ingredients" size="15"
-            maxlength="30">1 1/2 cups heavy cream</input>
-            <input type="checkbox" name="ingredients" size="15"
-            maxlength="30">1/3 granulated sugar</input>
-            <input type="checkbox" name="ingredients" size="15"
-            maxlength="30">2 egg yolks</input>
-            <input type="checkbox" name="ingredients" size="15"
-            maxlength="30">1 lemon, juiced</input>
-            <input type="checkbox" name="ingredients" size="15"
-            maxlength="30">2 tbs butter</input>
-            <input type="checkbox" name="ingredients" size="15"
-            maxlength="30">1 cup honey roasted peacans, roughly chopped</input>
-          </fieldset>
-        </form>
-      </section>
-      <section>
-        <!-- bottom border in CSS, please-->
+    </div>
+
+    <section id="chocopizza">
+      <img src="img/choco-pizza.png" alt="chocolate pizza" title="chocolate pizza" />
+    </section>
+    <section>
+      <article>
+
+        <div class="paragraph">For the fig-swirl: Melt the butter over medium heat in a saucepan. Add brown sugar and
+          stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium
+          heat, stirring frequently, until you have a chunky-jammy mixture. Add the salt with one or two stirs, set
+          aside and let cool completely.</div>
+
+        <div class="paragraph">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until
+          sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the
+          fridge and wait until the fig mixture is cooled.</div>
+
+        <div class="paragraph">Using an ice cream machine, pour liquids into the frozen basin and process according to
+          manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam
+          mixture, and the nuts. Continue to process +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass
+          tupperware. Freeze for at least two hours before serving.</div>
+
+      </article>
+    </section>
+    <section>
+      <div id="list-background">
+        <ul id="boxone">
+          <li><input type="checkbox" name="username" size="15" maxlength="30">1 1/2 cups milk</input></li>
+          <li><input type="checkbox" name="username" size="15" maxlength="30">1/2 mascarpone</input></li>
+          <li><input type="checkbox" name="username" size="15" maxlength="30">1/2 tsp pink salt</input></li>
+          <li><input type="checkbox" name="username" size="15" maxlength="30">1 lb black mission</input></li>
+          <li><input type="checkbox" name="username" size="15" maxlength="30">1/2 cup brown sugar</input></li>
+          <li><input type="checkbox" name="username" size="15" maxlength="30">2-4 tbs water</input></fieldset>
+          </li>
+        </ul>
+
+        <!--
+              second side of ingredients list -->
+        <ul id="boxtwo">
+          <li><input type="checkbox" name="ingredients" size="15" maxlength="30">1 1/2 cups heavy cream</input></li>
+          <li class="strikethrough"><input type="checkbox" name="ingredients" size="15" maxlength="30">1/3 granulated
+            sugar</input></li>
+          <li class="strikethrough"><input type="checkbox" name="ingredients" size="15" maxlength="30">2 egg
+            yolks</input></li>
+          <li><input type="checkbox" name="ingredients" size="15" maxlength="30">1 lemon, juiced</input></li>
+          <li><input type="checkbox" name="ingredients" size="15" maxlength="30">2 tbs butter</input></li>
+          <li><input type="checkbox" name="ingredients" size="15" maxlength="30">1 cup honey roasted peacans, roughly
+            chopped</input></li>
+        </ul>
+      </div>
+    </section>
+    <section id="share-recipe-area">
+      <div id="bordertwo"></div>
+      <div id="vanessa">
         <img src="img/van-pic.png" alt="vanessa" title="van face pic" />
+      </div>
+      <div id="vannessa-info">
         <h3>Vanessa Stevenson</h3>
-        <p>Food ethusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-        
-        <button>Share Recipe</button>
-      </section>
-      <section>
-        <img src="img/small-logo.png" alt="small logo" title="smalllogo" />
-        <hr>
-      </section>
+        <p>Food ethusiast, photography fan. Add a pinch of raw foodism and that's<br /> pretty much who I am.</p>
+      </div>
+
+      <button>SHARE RECIPE</button>
+    </section>
+    <section>
+
+    </section>
+    <span id="small-logo">
+      <hr id="hrleft">
+      <img src="img/small-logo.png" alt="small logo" title="smalllogo" />
+      <hr id="hrright">
+    </span>
+
   </main>
   <footer>
-    <p>Delicious &#169 2013 &#8226 All Rights Reserved. Proudly published with Ghost.</p>
-
-  </footer>  
+    <div id="footerbox">
+      <p>Delicious &#169 2013 &#8226 All Rights Reserved.<br />
+        Proudly published with Ghost.</p>
+    </div>
+  </footer>
 </body>
+
 </html>

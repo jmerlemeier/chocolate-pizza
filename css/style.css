@@ -1,38 +1,180 @@
-* {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
 #logoheader{
-  
+ float: left;
+}
+
+.allcaps {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+}
+
+ #allcapsprint {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 10px;
+ }
+nav {
+  float:right;
+}
+#headerfont {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
 }
 
 #delicious {
-  
+  font-family: 'Niconne', cursive;
+  font-size: 50px;
 }
 
-#headerp {
-  
+/* repeating linear gradient found at https://css-tricks.com/snippets/css/css-repeating-gradients/ */
+#border {
+  background-image: 
+  repeating-linear-gradient(
+      45deg,
+      rgb(223, 223, 212),
+      rgb(245, 245, 241) 7px,
+      rgb(65, 61, 61) 7px,
+      rgb(65, 61, 61) 7px /* determines size */
+    );
+  height: 20px;
+
+  margin-top: 50px;
+  margin-bottom: 70px;
+
 }
 
-nav {
-  /* float: right; */
+#bordertwo {
+  background-image: 
+  repeating-linear-gradient(
+      45deg,
+      rgb(223, 223, 212),
+      rgb(245, 245, 241) 7px,
+      rgb(65, 61, 61) 7px,
+      rgb(65, 61, 61) 7px /* determines size */
+    );
+  height: 20px;
+
+  margin-top: 50px;
+  margin-bottom: 25px;
+
 }
 
-/* body {
-  border-image: url(img/hr-img.png) 30 round;
-} */
+#article-heading {
+  float: left;
+  clear: both;
+}
+
+#printer {
+  float: right;
+  clear: both;
+}
+
+ body {
+  width: 900px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 50px;
+} 
 
 #chocopizza {
   width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
 .paragraph {
   display: inline-block;
-  text-align: left;
   width: 800px;
   text-indent: 30px;
   margin: 15px;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+}
+
+#list-background {
+  background-image: url("../img/list-bg.png");
+  height: 200px;
+}
+
+#boxone {
+  float: left;
+  line-height: 2.0em;
+  margin-left: 50px;
+}
+
+#boxtwo {
+  float: right;
+  line-height: 2.0em;
+  margin-right: 100px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+#vanessa {
+  float: left;
+}
+
+button {
+  margin-left: 700px;
+  background-color: rgb(131, 63, 17);
+  width: 200px;
+  height: 50px;
+  color: white;
+  margin-top: -100px;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
   
+}
+
+#share-recipe-area {
+  display: inline-block;
+  height: 250px;
+  
+}
+
+#vannessa-info {
+  font-family: 'Abel', sans-serif;
+  font-size:20px;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+}
+
+#footerbox {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+
+ul {
+  font-family: 'Abel', sans-serif;
+}
+
+#small-logo {
+ display: inline-block;
+}
+
+hr {
+  width: 420px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px; 
+}
+
+#hrleft {
+  float: left;
+}
+
+#hrright {
+  float: right;
 }
